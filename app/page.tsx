@@ -4,6 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <h1 className='text-bold'>Hello</h1>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js 13!</a>
@@ -16,7 +17,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://beta.nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
+            <h2 className='text-6xl'>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js 13</p>
           </a>
 
