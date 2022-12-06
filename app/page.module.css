@@ -144,3 +144,9 @@
     filter: invert(1);
   }
 }
+
+.warning {
+  background: rgb(209, 96, 96);
+  padding: 2rem;
+  text-align: center;
+}

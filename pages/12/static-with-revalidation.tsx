@@ -1,4 +1,4 @@
-import supabase from '../utils/supabase';
+import supabase from '../../utils/supabase';
 
 export async function getStaticProps() {
     const {data} = await supabase.from('park').select();
