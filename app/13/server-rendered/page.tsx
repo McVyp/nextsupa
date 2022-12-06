@@ -1,3 +1,5 @@
+import "server-only";
+
 import supabase from '../../../utils/supabase';
 
 // works with supabase to refresh data from time-to-time
