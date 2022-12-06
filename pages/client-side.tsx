@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import supabase from '../utils/supabase';
 
-const About = () => {
+const ClientSide = () => {
   const [data, setData] = useState<any>(null);
   const[loading, setLoading] = useState<boolean>(true);
 
@@ -11,7 +11,7 @@ const About = () => {
       console.log({data, error});
       setLoading(false);
       setData(data);
-    }
+    };
     getData();
   },[]);
 
@@ -20,4 +20,4 @@ const About = () => {
   ):(<pre>{JSON.stringify(data, null, 2)}</pre>)
 }
 
-export default About
+export default ClientSide
